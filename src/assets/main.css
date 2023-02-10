@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* .window{
+.window{
      @apply w-screen h-screen 
 }
 .screen{
@@ -13,7 +13,4 @@
 }
 .button--start{
      @apply btn btn-ghost btn-xl
-} */
-/* .bth{
-     @layer url("./pt/MicrosoftTeams-image.png");
-} */
+}
