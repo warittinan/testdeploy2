@@ -283,7 +283,7 @@
           <div class="flex justify-center rounded-2xl">
             <h class="text-font rounded-3xl mt-[100px] p-8 border-8 bg-black text-white text-3xl px-10">Results</h>
           </div>
-          <div class="h-full flex flex-row justify-around items-end -mt-[500px]">
+          <div class="h-full flex flex-row justify-around items-end -mt-80">
             <div class="flex flex-col items-start space-y-8">
               <div
                 class="text-font btn rounded-2xl p-4 hover:border-white border-white border-8 h-20 w-50 text-center text-l pointer-events-auto"
