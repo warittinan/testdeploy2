@@ -53,7 +53,7 @@
           </div>
           <!-- Level btn -->
           <!-- Max sp -->
-          <div class="flex flex-col space-y-10 max-lg:hidden " v-if="startBtn && !gameStr && !cross">
+          <div class="flex flex-col space-y-10 max-lg:hidden -mt-10 " v-if="startBtn && !gameStr && !cross">
             <div class="rounded-2xl p-4 border-8 bg-black">
               <h1 class="text-slate-50 text-font text-3xl font-bold text-center">
                 LEVEL
@@ -213,7 +213,7 @@
           <div class="h-full flex flex-row justify-around items-end -mt-36">
             <div class="flex flex-col items-start space-y-8">
               <div
-                class="btn rounded-2xl text-font p-4 hover:border-white border-white border-8 h-20 w-64 text-center text-2xl pointer-events-auto"
+                class="btn rounded-2xl text-font p-4 hover:border-white hover:bg-red-500 text-white bg-black border-white border-8 h-20 w-64 text-center text-2xl pointer-events-auto"
                 @click="reset">
                 BACK TO MENU
               </div>
