@@ -54,7 +54,7 @@
           </div>
           <!-- Level btn -->
           <!-- Max sp -->
-          <div class="flex flex-col space-y-10 max-lg:hidden -mt-10 " v-if="startBtn && !gameStr && !cross && countdownzone">
+          <div class="flex flex-col space-y-10 max-lg:hidden -mt-10 " v-if="startBtn && !gameStr ">
             <div class="rounded-2xl p-4 border-8 bg-black">
               <h1 class="text-slate-50 text-font text-3xl font-bold text-center">
                 LEVEL
@@ -462,11 +462,11 @@ function diffical(diffi) {
       delay(1200);
       break;
     case "normal":
-      diff.value = "w-20 h-20";
+      diff.value = "w-15 h-15";
       delay(900);
       break;
     case "hard":
-      diff.value = "w-20 h-20";
+      diff.value = "w-10 h-10";
       delay(700);
       break;
     default:
