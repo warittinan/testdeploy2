@@ -462,11 +462,11 @@ function diffical(diffi) {
       delay(1200);
       break;
     case "normal":
-      diff.value = "w-15 h-15";
+      diff.value = "w-20 h-20";
       delay(900);
       break;
     case "hard":
-      diff.value = "w-10 h-10";
+      diff.value = "w-20 h-20";
       delay(700);
       break;
     default:
